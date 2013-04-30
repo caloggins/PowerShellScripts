@@ -73,7 +73,7 @@ EnsureDestinationDirectoryExists
 
 $serviceBase = GetPackageUrl($feedUrlBase)
 $feedUrl = $serviceBase + "Packages"
-$feedUrl = $feedUrl + "?`$filter=substringof('EasyNet',Id) eq true"
+$feedUrl = $feedUrl + "?`$filter=substringof('kickass',Id) eq true"
 if($latest){
 	$feedUrl = $feedUrl + " and IsLatestVersion eq true"
 }
